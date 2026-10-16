@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Balaji Pathipati</title>
+  <meta name="description" content="Balaji Pathipati — personal website.">
+  <meta property="og:title" content="Balaji Pathipati">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/img/balaji.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="banner">
+    <div class="banner__inner">
+      <figure class="portrait">
+        <img src="/assets/img/balaji.jpg" alt="Portrait of Balaji Pathipati"
+             width="320" height="320"
+             onerror="this.parentElement.classList.add('portrait--empty'); this.remove();">
+        <span class="portrait__initials" aria-hidden="true">BP</span>
+      </figure>
+      <h1 class="name">Balaji Pathipati</h1>
+    </div>
+  </header>
+
+  <!-- Future sections go here: about, work, writing, contact -->
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Balaji Pathipati</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
