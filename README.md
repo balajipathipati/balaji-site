@@ -23,13 +23,13 @@ Edit a file → commit → push to `main`. GitHub Pages republishes in ~1 minute
 | A     | @    | 185.199.109.153     |
 | A     | @    | 185.199.110.153     |
 | A     | @    | 185.199.111.153     |
-| CNAME | www  | USERNAME.github.io. |
+| CNAME | www  | balajipathipati.github.io. |
 
 Delete Namecheap's default parking records (URL Redirect / CNAME to parkingpage) first.
 
 ## Roadmap
 
-- [ ] v1: name + photo (live)
+- [x] v1: name + photo (live)
 - [ ] About section
 - [ ] Contact / LinkedIn links
 - [ ] Work / projects
